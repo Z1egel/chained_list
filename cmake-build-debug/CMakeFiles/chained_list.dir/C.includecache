@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mbennis/42/chained_list/ft_list.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/mbennis/42/chained_list/ft_list_foreach.c
+ft_list.h
+/Users/mbennis/42/chained_list/ft_list.h
+
